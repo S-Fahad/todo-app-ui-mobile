@@ -1,0 +1,215 @@
+/* page1 */
+.container1 {
+  display: none;
+}
+.main {
+  position: relative;
+  height: 300px;
+  width: 570px;
+  margin: auto;
+  text-align: center;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.task b {
+  font-size: 40px !important;
+  font-family: sans-serif !important;
+  color: black;
+}
+.task div {
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: system-ui;
+  font-weight: lighter;
+  color: rgb(216, 204, 204);
+}
+.card {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  height: 230px;
+  width: 150px;
+  border: 2px solid rgba(255, 0, 0, 0.4);
+  border-radius: 5px;
+  margin-right: 30px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.fontchangep1 {
+  color: rgba(238, 54, 54, 0.8);
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.change {
+  text-decoration: none;
+  color: silver;
+}
+a {
+  text-decoration: none;
+  color: rgba(238, 54, 54, 0.8);
+}
+.empty {
+  text-align: justify;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.empty div {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+.line {
+  position: absolute;
+  left: 30px;
+  border-bottom: solid black 1px;
+  width: 120px;
+}
+
+/* page2 */
+.container2 {
+  margin: auto;
+}
+.headingp2 {
+  text-align: center;
+  margin-top: 7%;
+}
+.linep2 {
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 100px;
+  top: 18%;
+  left: 30%;
+}
+.line2p2 {
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 100px;
+  top: 18%;
+  right: 30%;
+}
+.page2card {
+  margin: auto;
+  position: relative;
+  border: solid 2px rgb(221, 97, 97);
+  border-radius: 10px;
+  width: 210px;
+  height: 300px;
+  text-align: center;
+  color: rgb(221, 97, 97);
+}
+.page2card p {
+  font-size: 20px;
+  margin: 30px 0px 5px 0px;
+}
+.page2card span {
+  color: rgb(65, 62, 62);
+}
+hr {
+  width: 160px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+.addbutton2 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.addbutton2 a {
+  color: rgba(238, 54, 54, 0.8);
+}
+.headingp2 a {
+  color: rgba(238, 54, 54, 0.8);
+  font-size: 25px;
+}
+/* Page3    page4 */
+.newlist {
+  margin: auto;
+  margin-top: 15%;
+
+  background-color: white;
+
+  border: 2px solid rgba(238, 54, 54, 0.8);
+  border-radius: 10px;
+  width: fit-content;
+  text-align: center;
+}
+.newlist input {
+  margin: 0px 15px 8px 15px;
+  border-radius: 5px;
+  border: solid rgba(238, 54, 54, 0.8);
+}
+.newlist button {
+  background-color: rgba(238, 54, 54, 0.8);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px 4px 15px;
+  margin-bottom: 15px;
+}
+
+/* page1 */
+
+@media screen and (min-width: 240px) and (max-width: 540px) {
+  .container1 {
+    display: initial;
+  }
+  .main {
+    display: none;
+  }
+  .heading {
+    width: 230px;
+    margin: auto;
+  }
+  .heading .bold {
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    padding-right: 5px;
+    font-weight: bolder;
+  }
+  .heading .light {
+    display: inline-block;
+    color: rgb(196, 192, 192);
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+  .heading .colored {
+    display: inline-block;
+    color: brown;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 75px;
+  }
+  .colored a {
+    color: rgba(238, 54, 54, 0.8);
+  }
+  .list div {
+    margin: auto;
+    border: 1px solid rgb(240, 117, 117);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 18px 30px 0px 15px;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+/* page2 */
+@media screen and (min-width: 240px) and (max-width: 540px) {
+  .linep2,
+  .line2p2 {
+    display: none;
+  }
+}
